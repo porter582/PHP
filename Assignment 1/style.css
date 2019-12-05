@@ -1,0 +1,33 @@
+body {
+	width: 1000px;
+	height: 500px;
+}
+
+
+#grid {
+	display: none;
+	grid-template-columns: repeat(10, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(25px, auto);
+	row-gap: 0px;
+	column-gap: 0px;
+	border-bottom: 2px solid #393f4d;
+	border-top: 2px solid #393f4d;
+}
+
+.cell {
+	
+	text-align: center;
+}
+
+span {
+	color: #F7B733;
+	
+}
+
+button {
+	padding: 12px;
+	border: 3px inset #C2C6DF;
+	outline: none;
+	font-size: 16px;
+}
