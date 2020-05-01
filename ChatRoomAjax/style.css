@@ -1,0 +1,19 @@
+#p1Words{
+    text-align: left;
+    display: inline;
+}
+
+#p2Words{
+    text-align: right;
+    display: inline;
+}
+
+div{
+     height:500px;
+     width:500px;
+     overflow:auto;
+     border:1px solid;
+    margin-left: 50%;
+    margin-right: 50%;
+
+}
